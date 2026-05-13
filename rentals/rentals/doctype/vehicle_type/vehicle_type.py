@@ -5,7 +5,7 @@
 from frappe.model.document import Document
 
 
-class Driver(Document):
+class VehicleType(Document):
 	# begin: auto-generated types
 	# This code is auto-generated. Do not modify anything in this block.
 
@@ -14,16 +14,8 @@ class Driver(Document):
 	if TYPE_CHECKING:
 		from frappe.types import DF
 
-		first_name: DF.Data | None
-		full_name: DF.Data | None
-		last_name: DF.Data | None
-		phone: DF.Phone | None
+		description: DF.SmallText | None
+		is_standard: DF.Check
 	# end: auto-generated types
-
-	def before_save(self):
-		pass
-
-	def send_alert(self):
-		print("alert sent")
 
 	pass

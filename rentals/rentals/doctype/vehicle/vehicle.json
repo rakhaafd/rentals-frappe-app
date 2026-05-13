@@ -23,7 +23,8 @@
   "select",
   "condition",
   "get_summary",
-  "summary"
+  "summary",
+  "type"
  ],
  "fields": [
   {
@@ -112,6 +113,12 @@
    "fieldtype": "Check",
    "label": "Audit Completed?",
    "permlevel": 1
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Link",
+   "label": "Type",
+   "options": "Vehicle Type"
   }
  ],
  "grid_page_length": 50,
@@ -119,7 +126,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2026-05-13 13:14:28.923828",
+ "modified": "2026-05-13 14:46:05.578271",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Vehicle",

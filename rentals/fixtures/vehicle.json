@@ -1,0 +1,42 @@
+[
+ {
+  "audit_completed": 0,
+  "color": "red",
+  "condition": 0.9,
+  "docstatus": 0,
+  "doctype": "Vehicle",
+  "insurance_expiry": "2026-05-15",
+  "is_published": 1,
+  "license_plate": "aaaa",
+  "make": "Ferrari",
+  "model": "F8",
+  "modified": "2026-05-12 14:14:23.571111",
+  "name": 1,
+  "route": "cars/ferrari-s67-2018",
+  "select": "Active",
+  "title": "Ferrari - F8. 2019",
+  "type": null,
+  "vehicle_image": null,
+  "year": 2019
+ },
+ {
+  "audit_completed": 0,
+  "color": "green",
+  "condition": 1.0,
+  "docstatus": 0,
+  "doctype": "Vehicle",
+  "insurance_expiry": "2026-05-12",
+  "is_published": 1,
+  "license_plate": "aaabc",
+  "make": "BMW",
+  "model": "X5",
+  "modified": "2026-05-13 09:32:37.779995",
+  "name": 2,
+  "route": "cars/bmw-aaaa-2026",
+  "select": "Out of Service",
+  "title": "BMW - X5. 1999",
+  "type": null,
+  "vehicle_image": "/private/files/wallpaperflare.com_wallpaper.jpg",
+  "year": 1999
+ }
+]
